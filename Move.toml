@@ -1,0 +1,15 @@
+[package]
+name = "SmartContract_AuditingTool"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule ="0xdbf19546d96538891a090c9a7618ecbc210f9708fa587abdf7a9138e2a92e7b"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
